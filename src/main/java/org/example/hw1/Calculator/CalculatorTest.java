@@ -71,5 +71,9 @@ public class CalculatorTest {
         // }
         //   assert 0 == seminars.first.Calculator.Calculator.calculation(2, 6, '+');
         //    assertThat(seminars.first.Calculator.Calculator.calculation(2, 6, '+')).isEqualTo(0);
+
+        //HW Проверяем метод calculatingDiscount()
+        assertThat(Calculator.calculatingDiscount(5000, 20)).isEqualTo(4000);
+        assertThat(Calculator.calculatingDiscount(5000, 20)).isNotEqualTo(4980);
     }
 }
