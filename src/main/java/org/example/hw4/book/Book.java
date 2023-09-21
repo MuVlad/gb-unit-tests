@@ -1,4 +1,4 @@
-package org.example.w4.book;
+package org.example.hw4.book;
 
 public class Book {
     private String id;
